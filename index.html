@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./node_modules/@fortawesome/css/all.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" type="text/css" href="/node_modules/Semantic-UI-CSS-master/semantic.min.css"> -->
+    <link href="./assets/css/main.css" rel="stylesheet">
+    <link href="./assets/css/animate.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/bottom_animation.css">
+</head>
+
+<body class="main-font">
+    <!-- ใส่ html -->
+
+    <!-- Headers -->
+    <div class="Headers-maindiv position-fixed">
+        <div>
+            <div class="container-sm class-herder-res-576">
+                <div class="row">
+
+                    <!-- logo -->
+                    <div class="col-4 col-lg-1 d-flex align-items-center">
+                        <a id="img-logo">
+                            <img src="./assets/image/logo-2.svg" class="img-logo">
+                            <img src="./assets/image/logo-dark.svg" class="img-logo d-none">
+                        </a>
+                    </div>
+                    <!-- end-logo -->
+
+                    <!-- bt-header -->
+                    <div class="col-8 col-lg-11 d-flex align-items-center div_menu_banner justify-content-end">
+                        <!-- bt-menu -->
+
+                        <a class="text_menu_banner" data-bs-toggle="collapse" href="#dropdown-home" role="button"
+                            aria-expanded="false" aria-controls="dropdown-home" id="bt-home-header">
+                            <span>Home</span>
+                            <i class="fa-solid fa-chevron-down ms-2"></i>
+                        </a>
+
+                        <div>
+                            <a class="ms-4 text_menu_banner " data-bs-toggle="collapse" href="#bt-profile-header"
+                                role="button" aria-expanded="false" aria-controls="bt-profile-header" id="bt-profile">
+                                <span>Profile</span>
+                                <i class="fa-solid fa-chevron-down ms-2"></i>
+                            </a>
+
+                            <div class="position-absolute dropdown-menu-div">
+                                <div class="collapse " id="bt-profile-header">
+                                    <div class="card card-body dropdown-menu">
+                                        <div class="dropdown-header-2 pt-1 pb-1">
+                                            <ul class="m-0 p-0">
+                                                <li class="list-group-item text_head_li_margmin text_head_li">Profile
+                                                </li>
+                                                <li class="list-group-item li_margin">Age</li>
+                                                <li class="list-group-item li_margin">Birthday</li>
+                                                <li class="list-group-item li_margin">Genger</li>
+                                                <li class="list-group-item li_margin">Lives in</li>
+                                                <li class="list-group-item li_margin">Honors / Awards
+                                                    <div class="rounded-pill tag-menu color-FFF ms-1">NEW</div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <a class="ms-4 text_menu_banner " data-bs-toggle="collapse" href="#bt-edcation-header"
+                                role="button" aria-expanded="false" aria-controls="bt-edcation-header" id="bt-edcation">
+                                <span>Education</span>
+                                <i class="fa-solid fa-chevron-down ms-2"></i>
+                            </a>
+
+                            <div class="position-absolute dropdown-menu-div">
+                                <div class="collapse " id="bt-edcation-header">
+                                    <div class="card card-body dropdown-menu">
+                                        <div class="dropdown-header-2 pt-1 pb-1">
+                                            <ul class="m-0 p-0">
+                                                <li class="list-group-item text_head_li_margmin text_head_li">Edcation
+                                                </li>
+                                                <li class="list-group-item li_margin">Trat Province
+                                                    <div class="rounded-pill tag-menu color-FFF ms-1">no progress</div>
+                                                </li>
+                                                <li class="list-group-item li_margin">Chan Province</li>
+                                                <li class="list-group-item li_margin">Nakhon Ratchasima Province</li>
+                                                <li class="list-group-item li_margin">Chanthaburi Province</li>
+                                                <li class="list-group-item li_margin">Prachuap Khiri Khan Province</li>
+                                                <li class="list-group-item li_margin">Rayong Province Province</li>
+                                                <li class="list-group-item li_margin">Surat Thani Province</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <a class="ms-4 text_menu_banner " data-bs-toggle="collapse" href="#bt-skill-header"
+                                role="button" aria-expanded="false" aria-controls="bt-skill-header" id="bt-skill">
+                                <span>Skills & Expertise</span>
+                                <div class="rounded-pill tag-menu color-FFF">NEW</div>
+                                <i class="fa-solid fa-chevron-down ms-2"></i>
+                            </a>
+
+                            <div class="position-absolute dropdown-menu-div">
+                                <div class="collapse " id="bt-skill-header">
+                                    <div class="card card-body dropdown-menu">
+                                        <div class="dropdown-header-2 pt-1 pb-1">
+                                            <ul class="m-0 p-0">
+                                                <li class="list-group-item text_head_li_margmin text_head_li">Skills &
+                                                    Expertise
+                                                </li>
+                                                <li class="list-group-item li_margin">Trat Province
+                                                    <div class="rounded-pill tag-menu color-FFF ms-1">no progress</div>
+                                                </li>
+                                                <li class="list-group-item li_margin">Chan Province</li>
+                                                <li class="list-group-item li_margin">Nakhon Ratchasima Province</li>
+                                                <li class="list-group-item li_margin">Chanthaburi Province</li>
+                                                <li class="list-group-item li_margin">Prachuap Khiri Khan Province</li>
+                                                <li class="list-group-item li_margin">Rayong Province Province</li>
+                                                <li class="list-group-item li_margin">Surat Thani Province</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <a class="ms-4 text_menu_banner " data-bs-toggle="collapse" href="#bt-contact-header"
+                                role="button" aria-expanded="false" aria-controls="bt-contact-header" id="bt-contact">
+                                <span>Contact</span>
+                                <i class="fa-solid fa-chevron-down ms-2"></i>
+                            </a>
+
+                            <div class="position-absolute dropdown-menu-div">
+                                <div class="collapse " id="bt-contact-header">
+                                    <div class="card card-body dropdown-menu">
+                                        <div class="dropdown-header-2 pt-1 pb-1">
+                                            <ul class="m-0 p-0">
+                                                <li class="list-group-item text_head_li_margmin text_head_li">Contact
+                                                </li>
+                                                <li class="list-group-item li_margin">Trat Province
+                                                    <div class="rounded-pill tag-menu color-FFF ms-1">no progress</div>
+                                                </li>
+                                                <li class="list-group-item li_margin">Chan Province</li>
+                                                <li class="list-group-item li_margin">Nakhon Ratchasima Province</li>
+                                                <li class="list-group-item li_margin">Chanthaburi Province</li>
+                                                <li class="list-group-item li_margin">Prachuap Khiri Khan Province</li>
+                                                <li class="list-group-item li_margin">Rayong Province Province</li>
+                                                <li class="list-group-item li_margin">Surat Thani Province</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end-bt-menu -->
+
+                        <!-- bt-social -->
+                        <a href="#" class="icon_menu_banner ms-5">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="#" class="icon_menu_banner ms-3">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#" class="icon_menu_banner ms-3">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <!-- end-bt-social -->
+
+                        <!-- bt-res-manu -->
+                        <div class="menu-btn" data-bs-toggle="collapse" href="#res-header" role="button"
+                            aria-expanded="false" aria-controls="res-header" id="bt-manu-res">
+                            <div class="menu-btn__burger icon_menu_banner-none "></div>
+                        </div>
+                        <!-- end bt-res-manu -->
+
+                    </div>
+                    <!-- bt-header -->
+
+                </div>
+            </div>
+        </div>
+
+        <div class="magin-fake-headder"></div>
+
+        <!-- collapse head -->
+        <div class="div-manu-res-phone shadow-sm">
+
+            <div id="res-header" class="collapse ">
+                <!-- res manu -->
+                <div class="container-sm class-herder-res-576">
+                    <div class="manu-res-phone">
+                        <ul class="list-group list-group-flush">
+
+                            <li class="list-group-item pt-3 pb-3 color-7E7E7E li-dropdow-res-hover"
+                                data-bs-toggle="collapse" data-bs-target="#collapse-sub-home" aria-expanded="false"
+                                aria-controls="collapse-sub-home">
+
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div>
+                                        <span>Home</span>
+                                    </div><i class="fa-solid fa-chevron-down ms-2"></i>
+                                </div>
+
+                                <div class="collapse pt-3" id="collapse-sub-home">
+                                    <ul class="list-group list-group-flush ms-4 ">
+                                        <li
+                                            class="list-group-item color-7E7E7E li-dropdow-res-hover pt-3 pb-3 ps-0 pe-0 bt-sub-social-border">
+                                            Travel</li>
+                                        <li
+                                            class="list-group-item color-7E7E7E li-dropdow-res-hover pt-3 pb-3 ps-0 pe-0">
+                                            Soldier</li>
+                                        <li
+                                            class="list-group-item color-7E7E7E li-dropdow-res-hover pt-3 pb-3 ps-0 pe-0">
+                                            Social</li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li class="list-group-item pt-3 pb-3 color-7E7E7E li-dropdow-res-hover"
+                                data-bs-toggle="collapse" data-bs-target="#collapse-sub-profile" aria-expanded="false"
+                                aria-controls="collapse-sub-profile">
+
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div>
+                                        <span>Profile</span>
+                                    </div><i class="fa-solid fa-chevron-down ms-2"></i>
+                                </div>
+
+                                <div class="collapse pt-3" id="collapse-sub-profile">
+                                    <ul class="list-group list-group-flush ms-4 ">
+                                        <li
+                                            class="list-group-item color-7E7E7E li-dropdow-res-hover pt-3 pb-3 ps-0 pe-0 bt-sub-social-border">
+                                            An item</li>
+                                        <li
+                                            class="list-group-item color-7E7E7E li-dropdow-res-hover pt-3 pb-3 ps-0 pe-0">
+                                            A second item </li>
+                                        <li
+                                            class="list-group-item color-7E7E7E li-dropdow-res-hover pt-3 pb-3 ps-0 pe-0">
+                                            A third item</li>
+                                        <li
+                                            class="list-group-item color-7E7E7E li-dropdow-res-hover pt-3 pb-3 ps-0 pe-0">
+                                            A fourth item</li>
+                                        <li
+                                            class="list-group-item color-7E7E7E li-dropdow-res-hover pt-3 pb-3 ps-0 pe-0">
+                                            And a fifth one
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li class="list-group-item pt-3 pb-3 color-7E7E7E li-dropdow-res-hover"
+                                data-bs-toggle="collapse" data-bs-target="#collapse-sub-education" aria-expanded="false"
+                                aria-controls="collapse-sub-education">
+
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div>
+                                        <span>Edcation</span>
+                                    </div>
+                                    <i class="fa-solid fa-chevron-down ms-2"></i>
+                                </div>
+
+                                <div class="collapse pt-3" id="collapse-sub-education">
+                                    <ul class="list-group list-group-flush ms-4 ">
+                                        <li
+                                            class="list-group-item color-7E7E7E li-dropdow-res-hover pt-3 pb-3 ps-0 pe-0 bt-sub-social-border">
+                                            An item</li>
+                                        <li
+                                            class="list-group-item color-7E7E7E li-dropdow-res-hover pt-3 pb-3 ps-0 pe-0">
+                                            A second item </li>
+                                        <li
+                                            class="list-group-item color-7E7E7E li-dropdow-res-hover pt-3 pb-3 ps-0 pe-0">
+                                            A third item</li>
+                                        <li
+                                            class="list-group-item color-7E7E7E li-dropdow-res-hover pt-3 pb-3 ps-0 pe-0">
+                                            A fourth item</li>
+                                        <li
+                                            class="list-group-item color-7E7E7E li-dropdow-res-hover pt-3 pb-3 ps-0 pe-0">
+                                            And a fifth one
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li class="list-group-item pt-3 pb-3 color-7E7E7E li-dropdow-res-hover"
+                                data-bs-toggle="collapse" data-bs-target="#collapse-sub-skill" aria-expanded="false"
+                                aria-controls="collapse-sub-skill">
+
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div>
+                                        <span> Skills & Expertise</span>
+                                        <div class="rounded-pill tag-menu color-FFF">NEW</div>
+                                    </div>
+                                    <i class="fa-solid fa-chevron-down ms-2"></i>
+                                </div>
+
+                                <div class="collapse pt-3" id="collapse-sub-skill">
+                                    <ul class="list-group list-group-flush ms-4 ">
+                                        <li
+                                            class="list-group-item color-7E7E7E li-dropdow-res-hover pt-3 pb-3 ps-0 pe-0 bt-sub-social-border">
+                                            An item</li>
+                                        <li
+                                            class="list-group-item color-7E7E7E li-dropdow-res-hover pt-3 pb-3 ps-0 pe-0">
+                                            A second item </li>
+                                        <li
+                                            class="list-group-item color-7E7E7E li-dropdow-res-hover pt-3 pb-3 ps-0 pe-0">
+                                            A third item</li>
+                                        <li
+                                            class="list-group-item color-7E7E7E li-dropdow-res-hover pt-3 pb-3 ps-0 pe-0">
+                                            A fourth item</li>
+                                        <li
+                                            class="list-group-item color-7E7E7E li-dropdow-res-hover pt-3 pb-3 ps-0 pe-0">
+                                            And a fifth one
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li class="list-group-item pt-3 pb-3 color-7E7E7E li-dropdow-res-hover"
+                                data-bs-toggle="collapse" data-bs-target="#collapse-sub-contact" aria-expanded="false"
+                                aria-controls="collapse-sub-contact">
+
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div>
+                                        <span>Contact</span>
+                                    </div><i class="fa-solid fa-chevron-down ms-2"></i>
+                                </div>
+
+                                <div class="collapse pt-3" id="collapse-sub-contact">
+                                    <ul class="list-group list-group-flush ms-4 ">
+                                        <li
+                                            class="list-group-item color-7E7E7E li-dropdow-res-hover pt-3 pb-3 ps-0 pe-0 bt-sub-social-border">
+                                            An item</li>
+                                        <li
+                                            class="list-group-item color-7E7E7E li-dropdow-res-hover pt-3 pb-3 ps-0 pe-0">
+                                            A second item </li>
+                                        <li
+                                            class="list-group-item color-7E7E7E li-dropdow-res-hover pt-3 pb-3 ps-0 pe-0">
+                                            A third item</li>
+                                        <li
+                                            class="list-group-item color-7E7E7E li-dropdow-res-hover pt-3 pb-3 ps-0 pe-0">
+                                            A fourth item</li>
+                                        <li
+                                            class="list-group-item color-7E7E7E li-dropdow-res-hover pt-3 pb-3 ps-0 pe-0">
+                                            And a fifth one
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+
+
+
+                        </ul>
+                    </div>
+                </div>
+                <!--  end res manu -->
+
+                <!--  res manu social -->
+                <div class="bt-social-res-div">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-4 d-flex align-items-center justify-content-center bt-social-res">
+                                <a href="#">
+                                    <i class="fa-brands fa-twitter color-7E7E7E"></i>
+                                </a>
+                            </div>
+                            <div
+                                class="col-4 d-flex align-items-center justify-content-center bt-social-res bt-social-border">
+                                <a href="#">
+                                    <i class="fa-brands fa-instagram color-7E7E7E"></i>
+                                </a>
+                            </div>
+                            <div
+                                class="col-4 d-flex align-items-center justify-content-center bt-social-res bt-social-border">
+                                <a href="#">
+                                    <i class="fa-brands fa-facebook color-7E7E7E"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end res manu social -->
+
+            </div>
+        </div>
+        <!-- end collapse head -->
+
+    </div>
+    <!-- End Headers -->
+
+    <!-- dropdown home -->
+    <div class="position-fixed w-100 dropdown-header-div collapse " id="dropdown-home">
+        <div class=" container">
+            <div class="dropdown-header">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-3">
+                            <div class="dropdown-header">
+                                <ul class="m-0 p-0">
+                                    <li class="list-group-item text_head_li_margmin text_head_li">Menu</li>
+                                    <li class="list-group-item li_margin li_margin-active" id="bt-dropdown-home">Home
+                                    </li>
+                                    <li class="list-group-item li_margin">Languages</li>
+                                    <li class="list-group-item li_margin">Work Experience</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-3 ul-border-left">
+                            <div class="dropdown-header">
+                                <ul class="m-0 p-0">
+                                    <li class="list-group-item text_head_li_margmin text_head_li">Travel</li>
+                                    <li class="list-group-item li_margin">Trat Province
+                                        <div class="rounded-pill tag-menu color-FFF ms-1">no progress</div>
+                                    </li>
+                                    <li class="list-group-item li_margin">Chan Province</li>
+                                    <li class="list-group-item li_margin">Nakhon Ratchasima Province</li>
+                                    <li class="list-group-item li_margin">Chanthaburi Province</li>
+                                    <li class="list-group-item li_margin">Prachuap Khiri Khan Province</li>
+                                    <li class="list-group-item li_margin">Rayong Province Province</li>
+                                    <li class="list-group-item li_margin">Surat Thani Province</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-3 ul-border-left">
+                            <div class="dropdown-header">
+                                <ul class="m-0 p-0 main-font-thai">
+                                    <li class="list-group-item text_head_li_margmin text_head_li">Soldier</li>
+                                    <li class="list-group-item li_margin">หน่วยฝึกทหารใหม่</li>
+                                    <li class="list-group-item li_margin">หน่วยบัญชาการนาวิกโยธิน</li>
+                                    <li class="list-group-item li_margin">กรมรักษาความปลอดภัย หน่วยบัญชาการนาวิกโยธิน
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-3 ul-border-left">
+                            <div class="dropdown-header">
+                                <ul class="m-0 p-0">
+                                    <li class="list-group-item text_head_li_margmin text_head_li">Social</li>
+                                    <li class="list-group-item li_margin">Facebook
+                                        <div class="rounded-pill tag-menu color-FFF ms-1">NEW</div>
+                                    </li>
+                                    <li class="list-group-item li_margin">Instagram</li>
+                                    <li class="list-group-item li_margin">Twitter</li>
+                                    <li class="list-group-item li_margin">Line
+                                        <div class="rounded-pill tag-menu color-FFF ms-1">NEW</div>
+                                    </li>
+                                    <li class="list-group-item li_margin">Youtube</li>
+                                    <li class="list-group-item li_margin">Tiktok</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end dropdown home -->
+
+    <!-- area-home -->
+    <div id="area-home"></div>
+
+    <div class="div_banner">
+        <div class="filter_banner"></div>
+
+        <div class="div-content-banner">
+            <div class="text-banner me-5">
+                <div class="size-text-banner-1">
+                    Welcome to Website
+                </div>
+
+                <div class="size-text-banner-2 text-uppercase ">
+                    <p class="m-0">
+                        If you judge people
+                    </p>
+                    <p class="m-0" style="margin-top: -5px !important;">
+                        you have no time to love them
+                    </p>
+                </div>
+
+                <div class="d-flex align-items-center justify-content-start mt-2">
+
+                    <div class="d-flex align-items-center justify-content-center width-div-icon-banner">
+                        <div class="div-icon-banner me-2">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <p class="m-0 fw-normal">
+                                Code
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex align-items-center justify-content-center width-div-icon-banner">
+                        <div class="div-icon-banner me-2">
+                            <i class="fa-brands fa-square-js"></i>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <p class="m-0 fw-normal">
+                                Javascript
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex align-items-center justify-content-center width-div-icon-banner ">
+                        <div class="div-icon-banner me-2">
+                            <i class="fa-brands fa-css3"></i>
+                        </div>
+                        <div>
+                            <p class="m-0 fw-normal">
+                                CSS3
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="div-rotate-res-phone ms-5">
+                <div class="div-tag-number-2 position-absolute">
+                    <div class="div-number-rotate position-absolute">
+                        <span>0</span><span style="visibility: hidden;">1</span>
+                    </div>
+                </div>
+                <div class="div-tag-number">
+                    <div class="div-number-rotate">
+                        <div class="text-shadow">
+                            <span style="visibility: hidden;">0</span><span>1</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    </div>
+
+    <div id="area-2"></div>
+    <div style="height: 100vh;">
+    </div>
+
+</body>
+<script src="./node_modules/waypoints/lib/noframework.waypoints.min.js"></script>
+<script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="./node_modules/jquery/dist/jquery.min.js"></script>
+<!-- <script src="./node_modules/popper.js/dist/umd/popper.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+<!-- <script src="./node_modules/Semantic-UI-CSS-master/semantic.min.js"></script> -->
+<script src="./assets/javascript/bottom_animetion.js"></script>
+<script src="./assets/javascript/main.js"></script>
+
+
+</html>
